@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="./imagens/logo-tweeter.png">
+    <link rel="stylesheet" href="./stylelist.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réplica do Tweeter</title>
+</head>
+<body>
+
+    
+    <div id="creatLogin">
+        <img id="logo" class="img"src="./imagens/logo-tweeter.png" alt=" logo png tweeter"> </img>
+        <div id="wellcome">
+            <h1 class="txtbemvindo">Tweeter</h1>
+            <h2 class="txtbemvindo">Isso é uma réplica programada por mim シ</h2>
+
+        </div>
+        <form class="inter">
+            <input id="nomeDoUsuario" class="inputDeNome" type="text" placeholder="Digite seu nome" autocomplete="off"/>
+            <input id="nomeDeUsuario" class="inputDeNome" type="text" placeholder="Digite seu nome de usuário" autocomplete="off"/>
+            <button id="botaoCadastrar" type="button" onclick="location.href='#container'" >Cadastrar</button>
+        </form>
+    </div>
+
+    <div id="container">
+
+        <nav id="cabecalho">
+
+
+            <div id="logo-cab">
+                <img class="img"src="./imagens/logo-tweeter.png">
+            </div>
+            
+            <div id="home-cab">
+                <img class="img"src="./imagens/hometweeter.png">
+                <h4> Home</h4>
+            </div>
+
+            <div id="hash-cab">
+                <img class="img hash-cab"src="./imagens/hashtag.png.png"> 
+                <h4> Explore</h4>
+            </div>
+
+            <div id="not-cab">
+                <img class="img not-cab"src="./imagens/notificaçõestweeter.png">
+                <h4> Notificações</h4>
+            </div>
+            
+            <div id="mens-cab">
+                <img class="img mens-cab"src="./imagens/entradatweeter.png">
+                <h4> Mensagens</h4>
+            </div>
+
+            <div id="boo-cab">
+                <img class="img boo-cab" src="./imagens/bookmarkerstweeter.png">
+                <h4> Bookmarkers</h4>
+            </div>
+
+            <div id="pro-cab">
+                <img class="img pro-cab"src="./imagens/prfiletweeter.png">
+                <h4> Perfil</h4>
+            </div>
+
+            <div id="mai-cab">
+                <img class="img mai-cab" src="./imagens/moretweeter.png">
+                <h4> Mais</h4>
+            </div>
+        </nav>
+    
+        <main id="main">
+
+            <h3 id="word-home">Home</h3>
+            <form id="formFinal">
+                <div class="textarea-container">
+                    <textarea id="myTextarea"  placeholder="O que está acontecendo!?"></textarea>
+                    <button id="tweetar" type="button"> Tweetar</button>
+                    <div class="textarea-placeholder"></div>
+                </div>
+            </form>
+            
+
+            <section id="tweetsSection">
+
+
+                <ul id="feed">
+                    <!--<li>
+                        <div class="tweetsList">
+                            <div class="topoDosTweets">
+                                <img class="imgDoTweet" src="./imagens/men.jpg" >
+                                <h3 class="h3DoTweet"> Daniel </h3>
+                                <p class="pDoTweet"> @dangesg - 12h 30m </p>
+                            </div>
+        
+                            <div class="corpoDosTweets">
+                                <p>isso aqui é um projeto de tweeterisso aqui é um projeto de tweeterisso aqui é um projeto de tweeterisso aqui é um projeto de tweeterisso aqui é um projeto de tweeterisso aqui é um projeto de tweeterisso aqui é um projeto de tweeter</p>
+                            </div>
+                        </div>
+                    </li> -->
+                </ul>
+
+                
+
+                
+                
+            </section>
+
+        </main>
+
+    </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>
